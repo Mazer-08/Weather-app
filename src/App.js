@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './Components/Navbar';
+import Weatherform from './Components/Weatherform'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar  brandSrc="https://cdn-icons-png.flaticon.com/512/1555/1555512.png" brandName="WeatherNow" searchBox = "Enter State"/>
+
+      <Weatherform countryinput="Choose Country" stateinput="Choose State" cityinput="Choose City"  weatheroutput="Results for x,y" city="Delhi"/>
+
+
+    </>
   );
 }
 
