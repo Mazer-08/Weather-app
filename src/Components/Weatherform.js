@@ -47,7 +47,7 @@ export default function Weatherform(props) {
     
     const [text, setText] = useState('0');
     const [city, setCity] = useState('');
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${token}`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${proce}`
 
 //-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
   return (
