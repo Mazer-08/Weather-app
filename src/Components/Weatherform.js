@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
+const TOKEN = require("../apiToken.js");
 
 export default function Weatherform(props) {
      
@@ -47,7 +48,7 @@ export default function Weatherform(props) {
     
     const [text, setText] = useState('0');
     const [city, setCity] = useState('');
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${proce}`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${TOKEN}`
 
 //-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
   return (
