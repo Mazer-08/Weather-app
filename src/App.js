@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Weatherform from './Components/Weatherform'
+import Navbar from './Components/navbar/Navbar';
+import Weatherform from './Components/weatherform/Weatherform'
 function App() {
   return (
     <>

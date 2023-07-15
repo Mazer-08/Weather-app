@@ -1,0 +1,298 @@
+.hehe{
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+.hehe .container-search{
+	margin: 2rem auto;
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+.hehe .container-result {
+    width: 90%;
+	margin: -2.5rem auto;
+}
+
+
+
+
+
+
+
+
+.hehe .container-result .result-top{
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem auto;
+
+	color: aliceblue;
+}
+
+.hehe .container-result .result-top .left .city p{
+	font-family: var(--font-text);
+	font-size: 3rem;
+}
+.hehe .container-result .result-top .left .temp h1{
+	font-family: var(--font-text);
+	font-size: 4rem;
+	font-weight: 600;
+}
+.hehe .container-result .result-top .left .feelsLike p{
+	font-family: var(--font-text);
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+
+.hehe .container-result .result-top .right .day p{
+	font-family: var(--font-text);
+	font-size: 3rem;
+}
+.hehe .container-result .result-top .right .description h1{
+	font-family: var(--font-text);
+	font-size: 4rem;
+	font-weight: 300;
+}
+.hehe .container-result .result-top .right .visibility p{
+	font-family: var(--font-text);
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+.hehe .container-result .result-bottom{
+	width: 90%;
+	margin: 3rem auto;
+	background: rgb(0 0 0 / 30%);
+	border-radius: 8px;
+}
+
+.hehe .container-result .result-bottom .valclass-container{
+	padding: 0.25rem 0rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hehe .container-result .result-bottom .valclass{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.hehe .container-result .result-bottom .valclass .val p{
+	margin: 0;
+	font-family: var(--font-text);
+	color: aliceblue;
+	font-size: 3rem;
+}
+.hehe .container-result .result-bottom .valclass .title{
+	font-family: var(--font-text);
+	color: aliceblue;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 930px){
+
+	.hehe .container-search{
+		margin: 2rem auto;
+		width: 70%;
+	}
+	.hehe .container-result {
+		width: 90%;
+		margin: 0rem auto;
+	}
+
+	/* result top */
+	
+	.hehe .container-result .result-top .left .city p{
+		font-family: var(--font-text);
+		font-size: 1.7rem;
+	}
+	.hehe .container-result .result-top .left .temp h1{
+		font-family: var(--font-text);
+		font-size: 4rem;
+		font-weight: 500;
+	}
+	.hehe .container-result .result-top .left .feelsLike p{
+		font-family: var(--font-text);
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+	
+	
+	.hehe .container-result .result-top .right .day p{
+		font-family: var(--font-text);
+		font-size: 1.7rem;
+	}
+	.hehe .container-result .result-top .right .description h1{
+		font-family: var(--font-text);
+		font-size: 4rem;
+		font-weight: 300;
+	}
+	.hehe .container-result .result-top .right .visibility p{
+		font-family: var(--font-text);
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+	.hehe .container-search{
+		margin: 3rem auto;
+		width: 70%;
+	}
+	.hehe .container-result {
+		width: 90%;
+		margin: 0rem auto;
+	}
+
+
+	/* result top */
+	
+	.hehe .container-result .result-top .left .city p{
+		font-family: var(--font-text);
+		font-size: 1.2rem;
+	}
+	.hehe .container-result .result-top .left .temp h1{
+		font-family: var(--font-text);
+		font-size: 2.7rem;
+		font-weight: 500;
+	}
+	.hehe .container-result .result-top .left .feelsLike p{
+		font-family: var(--font-text);
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+	
+	
+	.hehe .container-result .result-top .right .day p{
+		font-family: var(--font-text);
+		font-size: 1.2rem;
+	}
+	.hehe .container-result .result-top .right .description h1{
+		font-family: var(--font-text);
+		font-size: 2.7rem;
+		font-weight: 300;
+	}
+	.hehe .container-result .result-top .right .visibility p{
+		font-family: var(--font-text);
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+
+
+
+	/* bottom result */
+	.hehe .container-result .result-bottom .valclass .val p{
+		margin: 0;
+		font-family: var(--font-text);
+		color: aliceblue;
+		font-size: 2rem;
+	}
+	.hehe .container-result .result-bottom .valclass .title{
+		font-family: var(--font-text);
+		color: aliceblue;
+		font-size: 1rem;
+		font-weight: 500;
+	}
+}
+
+
+
+
+@media screen and (max-width: 370px){
+	/* result top */
+	
+	.hehe .container-result .result-top .left .city p{
+		font-family: var(--font-text);
+		font-size: 1rem;
+	}
+	.hehe .container-result .result-top .left .temp h1{
+		font-family: var(--font-text);
+		font-size: 2rem;
+		font-weight: 500;
+	}
+	.hehe .container-result .result-top .left .feelsLike p{
+		font-family: var(--font-text);
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	
+	
+	.hehe .container-result .result-top .right .day p{
+		font-family: var(--font-text);
+		font-size: 1rem;
+	}
+	.hehe .container-result .result-top .right .description h1{
+		font-family: var(--font-text);
+		font-size: 2rem;
+		font-weight: 300;
+	}
+	.hehe .container-result .result-top .right .visibility p{
+		font-family: var(--font-text);
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+
+
+	/* bottom result */
+	.hehe .container-result .result-bottom .valclass .val p{
+		margin: 0;
+		font-family: var(--font-text);
+		color: aliceblue;
+		font-size: 1.5rem;
+	}
+	.hehe .container-result .result-bottom .valclass .title{
+		font-family: var(--font-text);
+		color: aliceblue;
+		font-size: 0.75rem;
+		font-weight: 500;
+	}
+}
